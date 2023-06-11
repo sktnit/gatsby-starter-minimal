@@ -65,6 +65,7 @@ const Index = () => {
             salute
             name
             micro_bio
+            intro
             cta
           }
         }
@@ -86,9 +87,9 @@ const Index = () => {
   return (
     <Layout isPage>
       <Hero data={data.hero.frontmatter} />
-      <About data={data.about} />
-      <Feature data={data.featured.edges} />
-      <Projects data={data.projects.edges} />
+      {/* <About data={data.about} /> */}
+      {/* <Feature data={data.featured.edges} /> */}
+      {/* <Projects data={data.projects.edges} /> */}
     </Layout>
   );
 };

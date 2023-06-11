@@ -50,7 +50,7 @@ const Footer = ({ data }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Vasco Ramos
+                  Shailesh Thakur
                 </a>
               );
             })}

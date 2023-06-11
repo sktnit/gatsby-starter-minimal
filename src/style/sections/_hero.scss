@@ -21,12 +21,14 @@
     padding: 0rem $default-font-size;
   }
 
+  .padding-top-120{
+    padding-top: 120px;
+  }
   .hero-title {
     font-size: 7rem;
     font-weight: 700;
-    margin-bottom: 3rem;
+    // margin-bottom: 3rem;
     text-align: left;
-
     @include respond(tab-land) {
       font-size: 4rem;
     }
@@ -46,22 +48,22 @@
   .hero-salute {
     font-family: 'Space Mono', sans-serif;
     color: $secondary-color;
-    font-size: 2rem;
+    font-size: 16px;
     margin-bottom: 0.5rem;
     text-align: left;
 
     @include respond(tab-land) {
-      font-size: 4rem;
+      font-size: 16px;
     }
     @include respond(tab-port) {
-      font-size: 1.3rem;
+      font-size: 16px;
     }
     @include respond(phone) {
-      font-size: 3.5rem;
+      font-size: 16px;
       line-height: 1.5;
     }
     @include respond(phone-xs) {
-      font-size: 2.8rem;
+      font-size: 16px;
     }
   }
 

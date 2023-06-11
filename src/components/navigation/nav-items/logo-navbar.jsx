@@ -24,7 +24,7 @@ const LogoNavBar = () => {
   // Render dark or light logo
   const renderLogo = () => (
     <animated.div>
-      <GatsbyImage image={darkLogo.childImageSharp.gatsbyImageData} alt="logo" title="Home" />
+      {/* <GatsbyImage image={darkLogo.childImageSharp.gatsbyImageData} alt="logo" title="Home" /> */}
     </animated.div>
   );
 

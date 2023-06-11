@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
     lang: 'en',
-    title: 'Vasco Ramos | Junior Infrastructure Engineer',
-    description: "I'm Vasco Ramos, a 23-year-old Infrastructure Engineer, from Portugal.",
-    author: 'Vasco Ramos',
-    siteUrl: 'https://vascoalramos.me',
+    title: 'Shailesh Thakur | Junior Infrastructure Engineer',
+    description: "I'm Shailesh Thakur, a Software Engineer, from India.",
+    author: 'Shailesh Thakur',
+    siteUrl: 'https://shaileshnit.com',
     imageShare: 'share.png',
-    email: 'hello@vascoalramos.me',
+    email: 'sktnit.cs18@gmail.com',
     social: [
-      { name: 'linkedin', url: 'https://linkedin.com/in/vascoalramos' },
-      { name: 'github', url: 'https://github.com/vascoalramos' },
-      { name: 'gitlab', url: 'https://gitlab.com/vascoalramos' },
-      { name: 'dev', url: 'https://dev.to/vascoalramos' },
+      { name: 'linkedin', url: 'https://www.linkedin.com/in/sktnit/' },
+      { name: 'github', url: 'https://github.com/sktnit' },
+      { name: 'twitter', url: 'https://twitter.com/ShaileshTh95273' },
+      { name: 'dev', url: 'https://dev.to/sktnitcs18' },
     ],
   },
   plugins: [
@@ -72,8 +72,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Vasco Ramos | Computer Science Student',
-        short_name: 'Vasco Ramos',
+        name: 'Shailesh Thakur | Computer Science Student',
+        short_name: 'Shailesh Thakur',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#02aab0',

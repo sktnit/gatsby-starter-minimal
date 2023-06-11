@@ -21,13 +21,14 @@ const Header = ({ data }) => {
     <section id="hero" className="jumbotron" style={{ borderRadius: 0 }}>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <p className="hero-salute">{data.salute}</p>
+          <p className="hero-salute padding-top-120">{data.salute}</p>
           <h1 className="hero-title text-color-main">{data.name}</h1>
           <h1 className="hero-title">{data.micro_bio}</h1>
+          <p className="hero-salute">{data.intro}</p>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <a className="cta-btn cta-btn--hero" href="/#about" title="About Me">
+            <a className="cta-btn cta-btn--hero" href="/#contact" title="Contact Me">
               {data.cta}
             </a>
           </p>
